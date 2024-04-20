@@ -1,0 +1,4 @@
+// before pushing to github pages
+npm run build
+and then push the subtree branch
+git subtree push --prefix dist origin gh-pages
